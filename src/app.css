@@ -1,0 +1,24 @@
+
+table {
+	border: 1px solid #ECEEEF;
+}
+.main {
+	margin-top: 20px;
+}
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.input-group {
+  margin: 30px 0px;
+}
+
+svg {
+  height: 120px;
+}
+
+td:first-of-type, td:first-of-type > div {
+  height: 200px;
+  width: 250px;
+}
