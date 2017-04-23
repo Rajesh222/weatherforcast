@@ -6,7 +6,7 @@
 # You only need to do this once :)
 npm install
 ```
-
+```bash
 # run the below command to start the server
 npm run start
 
