@@ -30,7 +30,7 @@ export class SearchComponent extends Component {
     return (
       <form onSubmit={(e) => this.handleSubmit(e)} className="input-group">
         <input
-          placeholder="Enter city name to find weather forecastmnbdsmbajkbj"
+          placeholder="Enter city name to find weather forecast"
           className="form-control"
           value={this.state.searchTerm}
           onChange={(e)=> this.handleSearch(e)} />
