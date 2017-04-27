@@ -2,8 +2,14 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { getWeather } from '../actions/index';
+import PropTypes from 'prop-types';
 
-class SearchComponent extends Component {
+export class SearchComponent extends Component {
+
+  static propTypes = {
+    getWeather: PropTypes.func
+  }
+
   constructor(props) {
     super(props);
 
@@ -24,7 +30,7 @@ class SearchComponent extends Component {
     return (
       <form onSubmit={(e) => this.handleSubmit(e)} className="input-group">
         <input
-          placeholder="Enter city name to find weather forecast"
+          placeholder="Enter city name to find weather forecastmnbdsmbajkbj"
           className="form-control"
           value={this.state.searchTerm}
           onChange={(e)=> this.handleSearch(e)} />

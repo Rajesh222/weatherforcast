@@ -3,6 +3,9 @@ import { connect } from 'react-redux';
 import Chart from '../components/chart';
 
 class WeatherList extends Component {
+   static propTypes = {
+    weather: PropTypes.array
+  }
 
   renderWeather(cityData) {
     const cityName = cityData.city.name;
