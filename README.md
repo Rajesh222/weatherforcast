@@ -14,6 +14,11 @@ npm run start
 
 ```
 
+# run the below command to test
+npm run test
+
+```
+
 ** To open on localhost:**
 
 http://localhost:8080
