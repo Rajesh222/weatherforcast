@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Chart from '../components/chart';
+import PropTypes from 'prop-types';
 
 class WeatherList extends Component {
    static propTypes = {

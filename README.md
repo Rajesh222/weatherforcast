@@ -9,11 +9,12 @@
 npm install
 ```
 ```bash
-# run the below command to start the server
+# run the below command to build and start the server
+npm run build
 npm run start
 
 ```
-
+```bash
 # run the below command to test
 npm run test
 
